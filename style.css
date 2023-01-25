@@ -1,5 +1,9 @@
-body {
+.dark-mode {
+    background-color: #0a0a0a;
+}
 
+body {
+	color: #0a0a0a;
     background-color: #0a0a0a;
     display: flex;
     align-items: center;
@@ -8,13 +12,17 @@ body {
 
 }
 
+.xen-logo {
+	
+}
+
 #progress-stuff {
     font-size: 30px;
     font-weight: 300;
     color: #ffffff;
-    text-align: center;
-    align-items: center;
-    position: relative;
+    text-align: left;
+    align-items: left;
+    
 
     padding-top: 10px;
     padding-bottom: 10px;
@@ -30,11 +38,13 @@ body {
 
 #year-text {
     padding-bottom: 10px;
+	color: white;
 
 }
 
 #day-text {
     padding-bottom: 10px;
+	color: white;
 }
 
 #progress-year {
@@ -50,16 +60,17 @@ body {
     position: relative;
     z-index: 0;
     box-shadow: rgba(255, 255, 255) -2px 2px 5px,
-                rgba(255, 255, 255) 0px 2px 5px,
-                rgba(255, 255, 255, 0.50) -5px 5px 30px,
-                rgba(255, 255, 255, 0.20) -5px -5px 20px,
-                rgba(255, 255, 255, 0.20) 5px -5px 20px,
-                rgba(255, 255, 255, 0.20) 0px 10px 20px,
-                rgba(255, 255, 255, 0.09) 0px 2px 1px,
-                rgba(255, 255, 255, 0.09) 0px 4px 2px,
-                rgba(255, 255, 255, 0.09) 5px 8px 8px,
-                rgba(255, 255, 255, 0.09) 10px 16px 18px,
-                rgba(255, 255, 255, 0.09) 20px 32px 26px;
+        rgba(255, 255, 255) 0px 2px 5px,
+        rgba(255, 255, 255, 0.50) -5px 5px 30px,
+		rgba(255, 255, 255, 0.50) 10px 0px 30px,
+        rgba(255, 255, 255, 0.20) -5px -5px 20px,
+        rgba(255, 255, 255, 0.20) 5px -5px 20px,
+        rgba(255, 255, 255, 0.20) 0px 10px 20px,
+        rgba(255, 255, 255, 0.09) 0px 2px 1px,
+        rgba(255, 255, 255, 0.09) 0px 4px 2px,
+        rgba(255, 255, 255, 0.09) 5px 8px 8px,
+        rgba(255, 255, 255, 0.09) 10px 16px 18px,
+        rgba(255, 255, 255, 0.09) 20px 32px 26px;
 }
 
 #progress-day {
@@ -76,16 +87,17 @@ body {
     position: relative;
     z-index: 0;
     box-shadow: rgba(255, 255, 255) -2px 2px 10px,
-                rgba(255, 255, 255) 0px 2px 10px,
-                rgba(255, 255, 255, 0.50) -5px 5px 30px,
-                rgba(255, 255, 255, 0.20) -5px -5px 20px,
-                rgba(255, 255, 255, 0.20) 5px -5px 20px,
-                rgba(255, 255, 255, 0.20) 0px 10px 20px,
-                rgba(255, 255, 255, 0.09) 0px 2px 1px,
-                rgba(255, 255, 255, 0.09) 0px 4px 2px,
-                rgba(255, 255, 255, 0.09) 5px 8px 8px,
-                rgba(255, 255, 255, 0.09) 10px 16px 18px,
-                rgba(255, 255, 255, 0.09) 20px 32px 26px;
+        rgba(255, 255, 255) 0px 2px 10px,
+        rgba(255, 255, 255, 0.50) -5px 5px 30px,
+		rgba(255, 255, 255, 0.50) 10px 0px 30px,
+        rgba(255, 255, 255, 0.20) -5px -5px 20px,
+        rgba(255, 255, 255, 0.20) 5px -5px 20px,
+        rgba(255, 255, 255, 0.20) 0px 10px 20px,
+        rgba(255, 255, 255, 0.09) 0px 2px 1px,
+        rgba(255, 255, 255, 0.09) 0px 4px 2px,
+        rgba(255, 255, 255, 0.09) 5px 8px 8px,
+        rgba(255, 255, 255, 0.09) 10px 16px 18px,
+        rgba(255, 255, 255, 0.09) 20px 32px 26px;
 }
 
 #progress::before {
