@@ -1,0 +1,24 @@
+{
+  "name": "dateprogress",
+  "version": "1.0.0",
+  "description": "A simple date format unlike anything else.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write **/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/precompile/dateProgress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/precompile/dateProgress/issues"
+  },
+  "homepage": "https://github.com/precompile/dateProgress#readme",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.2.2"
+  }
+}
