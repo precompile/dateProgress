@@ -10,35 +10,47 @@
         <script src="../build/js/progress.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <title>Date progress</title>
     </head>
 
-    <body class="min-h-screen dark:bg-black dark:text-white">
-        <nav class="navbar">
-            <li>
-                <img src="img/XEN_LOGO_White.svg" width="50" height="50" alt="" class="xen-logo" />
-            </li>
-        </nav>
+    <body class="dark:bg-[0a0a0a] dark:text-[#f3f3f3]">
 
-        <div class="progress-group">
-            <div id="Year">
-                <div id="year-text" class="progress-title">Year in progress</div>
-                <div id="progress-year" class="progress shadow text-black"></div>
+        <nav class="p-3 my-5">
+            <div class="flex mx-10 justify-between">
+                <a href="#" class="flex items-center">
+                    <img src="img/XEN_LOGO_White.svg" class="xen-logo flex items-center w-20" alt="XEN Logo"/>
+                </a>
+                <a href="#" class=" flex items-center flex-grow-0 font-extrabold text-5xl">XEN</a>
+                <a href="#" class="flex items-center p-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-moon fill-current m-2 h-8 w-8"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M14.53 10.53a7 7 0 0 1-9.058-9.058A7.003 7.003 0 0 0 8 15a7.002 7.002 0 0 0 6.53-4.47z" />
+                    </svg>
+                </a>
             </div>
 
-            <div id="Day">
-                <div id="day-text" class="progress-title">Day in progress</div>
-                <div id="progress-day" class="progress shadow text-black"></div>
+        </nav>
+
+        <div class="progress-group flex place-content-center flex-auto">
+            <div id="Year" class="pb-20">
+                <div id="year-text" class="progress-title pb-10 text-[#f3f3f3]">Year in progress</div>
+                <div id="progress-year"
+                    class="custom-shadow text-[#0a0a0a] subpixel-antialiased text-sm font-semibold bg-[#f3f3f3] text-right drop-shadow-lg shadow-white">
+                </div>
+            </div>
+
+            <div id="Day" class="pb-20">
+                <div id="day-text" class="progress-title  pb-10 text-[#f3f3f3]">Day in progress</div>
+                <div id="progress-day"
+                    class="custom-shadow text-[#0a0a0a] subpixel-antialiased text-sm font-semibold bg-[#f3f3f3] text-right drop-shadow-lg shadow-white">
+                </div>
             </div>
         </div>
 
-        <footer class="place-content-end">
-            <div>
-                <p>test</p>
-            </div>
-        </footer>
+
     </body>
 
 </html>
