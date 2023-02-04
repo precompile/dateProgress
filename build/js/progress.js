@@ -27,7 +27,7 @@ window.onload = function () {
     document.getElementById("progress-year").innerHTML = (progressYear * 100).toFixed(4) + "%";
 }
 
-setInterval(function(){
+setInterval(function () {
     var progressYear = getProgressYear();
     var progressDay = getProgressDay();
     document.getElementById("progress-day").style.width = (progressDay * 100) + "%";
